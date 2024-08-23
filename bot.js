@@ -120,7 +120,7 @@ client.on(Events.MessageCreate, (msg) => {
   if (msg.author.bot) return;
   // console.log("Message Received", msg, "game active:", gameActive);
   handleWord(msg.content, msg);
-  msg.delete();
+  // msg.delete();
 });
 
 // return;

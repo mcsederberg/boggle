@@ -729,6 +729,7 @@ module.exports = {
       let authorID = message.author.id;
       let displayName = message.author.username;
       saveWord(word, authorID, displayName);
+      message.delete();
     }
   },
   handleStop: () => {
