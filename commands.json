@@ -1,0 +1,30 @@
+{
+    "boggle":{
+        "title": "b!boggle",
+        "description": "Use to start a game. Any other words will be taken as parameters."
+    },
+    "time": {
+        "title": "2m, 3m, 30s",
+        "description": "Sets he game time to 2 minutes, 3 minutes, or 30 seconds. Defaults to 1 minute."
+    },
+    "showwords": {
+        "title": "showwords / words",
+        "description": "Shows everyone's valid words at the end. Defaults to not show words."
+    },
+    "team": {
+        "title": "team",
+        "description": "Earned points are shared between all players. Defaults to everyone having their own scores."
+    },
+    "size": {
+        "title": "2, 3, 4, 5, 6, 7, 8",
+        "description": "Sets the width / height of the board to be inputted number. Defaults to 4."
+    },
+    "plurals": {
+        "title": "plurals",
+        "description": "Inputting words with -s or -ed will automatically attempt to add the base word. Example: bases will input bases and base."
+    },
+    "possible": {
+        "title": "possible",
+        "description": "Shows a list of all possible words at the end."
+    }
+}
